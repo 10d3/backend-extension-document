@@ -13,9 +13,9 @@ L'extension backend est un projet qui utilise l'API de Google Document AI pour t
 ---
 
 - **Version** : 1.0
-- **Auteur** : Anshl
-- **Date de création** : [Votre date de création]
-- **Licence** : [Votre licence]
+- **Auteur** : 10D3
+- **Date de création** : 2022-01-01
+- **Licence** : MIT
 
 ## Installation
 
@@ -24,7 +24,7 @@ L'extension backend est un projet qui utilise l'API de Google Document AI pour t
 Pour installer le projet, vous devez avoir Node.js et npm installés sur votre machine. Ensuite, vous pouvez exécuter les commandes suivantes :
 
 ```bash
-npm install
+bun install
 ```
 
 ## Utilisation
@@ -34,7 +34,7 @@ npm install
 Pour utiliser le projet, vous devez créer un fichier **.env** avec vos clés API de Google Document AI. Ensuite, vous pouvez exécuter le serveur avec la commande suivante :
 
 ```bash
-node server.ts
+bun server.ts
 ```
 
 ## Contribuer
