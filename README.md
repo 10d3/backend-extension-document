@@ -31,7 +31,7 @@ bun install
 
 ---
 
-Pour utiliser le projet, vous devez créer un fichier **.env** avec vos clés API de Google Document AI. Ensuite, vous pouvez exécuter le serveur avec la commande suivante :
+Pour utiliser le projet, vous devez créer un fichier **.env** avec vos clés API de Google Document AI, et un dossier **config** avec le fichier **[endless-*******].json** que vous pouvez trouver dans **google cloud console**. Ensuite, vous pouvez exécuter le serveur avec la commande suivante :
 
 ```bash
 bun server.ts
