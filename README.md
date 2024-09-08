@@ -6,44 +6,44 @@
 
 ---
 
-L'extension backend est un projet qui utilise l'API de Google Document AI pour traiter des documents.
+The extension backend is a project that uses the Google Document AI API to process documents.
 
-## Informations importantes
+## Important Information
 
 ---
 
 - **Version** : 1.0
-- **Auteur** : 10D3
-- **Date de création** : 2022-01-01
+- **Author** : 10D3
+- **Creation Date** : 2022-01-01
 - **Licence** : MIT
 
 ## Installation
 
 ---
 
-Pour installer le projet, vous devez avoir Node.js et npm installés sur votre machine. Ensuite, vous pouvez exécuter les commandes suivantes :
+To install the project, you need to have Node.js and npm installed on your machine. Then, you can run the following commands:
 
 ```bash
 bun install
 ```
 
-## Utilisation
+## Usage
 
 ---
 
-Pour utiliser le projet, vous devez créer un fichier **.env** avec vos clés API de Google Document AI, et un dossier **config** avec le fichier **[endless-*******].json** que vous pouvez trouver dans **google cloud console**. Ensuite, vous pouvez exécuter le serveur avec la commande suivante :
+To use the project, you need to create a .env file with your Google Document AI API keys, and a config folder with the [endless-*******].json file that you can find in the Google Cloud Console. Then, you can run the server with the following command:
 
 ```bash
 bun server.ts
 ```
 
-## Contribuer
+## Contribution
 
 ---
 
-Si vous souhaitez contribuer au projet, vous pouvez créer une nouvelle branche et soumettre une pull request.
+If you want to contribute to the project, you can create a new branch and submit a pull request.
 
-## Remerciements
+## Acknowledgments
 
 ---
 
@@ -64,11 +64,11 @@ L'API est définie dans le fichier server.ts. Elle comprend les routes suivantes
 1. **/api** : renvoie des informations sur l'API
 2. **/api/documentScan** : traite un document avec l'API de Google Document AI
 
-## Dépendances
+## Dependencies
 
 ---
 
-Le projet utilise les dépendances suivantes :
+The project uses the following dependencies:
 
 1. @google-cloud/documentai
 2. express
@@ -77,5 +77,5 @@ Le projet utilise les dépendances suivantes :
 5. @types/bun
 
 ```bash
-J'espère que cela vous aidera ! Si vous avez besoin de modifications ou d'ajouts, n'hésitez pas à me demander.
+I hope this helps! If you need any modifications or additions, don't hesitate to ask.
 ```
